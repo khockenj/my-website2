@@ -25,7 +25,7 @@
       </v-card>
         <template v-slot:opposite>
 
-      {{item.year}}
+      <span class='text-h5'>{{item.year}}</span>
       </template>
     </v-timeline-item>
   </v-timeline>

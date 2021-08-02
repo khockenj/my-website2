@@ -79,7 +79,7 @@
       icons: [
         {name: 'github', url: 'https://github.com/khockenj'},
         {name: 'linkedin', url: 'https://www.linkedin.com/in/kevin-hockenjos-264371107/'},
-        {name: 'twitter',url: 'https://twitter.com/k3vx_'}
+        {name: 'file-account', url:'https://drive.google.com/file/d/1Wxca0DxutLRAWSDXOPhp7D2B1HytLYEv/view?usp=sharing'}
       ],
     }),
   }

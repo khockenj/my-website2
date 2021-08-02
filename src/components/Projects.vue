@@ -13,7 +13,7 @@
 <script>
   import ProjectCard from '../components/ProjectCard';
   export default {
-    name: 'HelloWorld',
+    name: 'Projects',
   components: {
     ProjectCard
   },
