@@ -29,7 +29,7 @@
           v-model="group"
           active-class="clickedClass"
         >
-        <v-list-item>
+        <v-list-item to='/'>
         <v-list-item-content>
           <v-list-item-title class="script text-h4 text-center">
             Kevin Hockenjos
@@ -82,9 +82,9 @@ computed:{
       group: null,
       items: [
         {title: 'About Me', icon: 'mdi-account-tie', to: '/about'},
-        {title: 'Projects', icon: 'mdi-application', to: '/projects'},
+        
         {title: 'Resume', icon: 'mdi-file-account', url: 'https://drive.google.com/file/d/1Wxca0DxutLRAWSDXOPhp7D2B1HytLYEv/view?usp=sharing'},
-        {title: 'Video Games', icon: 'mdi-gamepad-variant', to: '/videogames'},
+
       ]
   }),
   watch: {
@@ -94,7 +94,8 @@ computed:{
     },
 };
 </script>
-
+<!--{title: 'Projects', icon: 'mdi-application', to: '/projects'},-->
+<!--{title: 'Video Games', icon: 'mdi-gamepad-variant', to: '/videogames'},-->
 <style scoped>
 .script-name {
 font-family: 'Dancing Script', cursive;

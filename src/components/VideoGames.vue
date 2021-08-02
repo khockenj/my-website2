@@ -1,8 +1,12 @@
 <template>
 <v-responsive>
-  <v-container style='max-width:55%' class='my-15'>
+  <v-container style='max-width:30%' class='my-15'>
     <v-row>
-        work in progress!! 2
+        <v-col class='align-center'>
+            <v-alert type="warning">
+      Work in Progress
+    </v-alert>
+        </v-col>
     </v-row>
   </v-container>
   </v-responsive>

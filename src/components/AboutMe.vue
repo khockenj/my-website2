@@ -19,7 +19,7 @@
           {{item.title}}
         </v-card-title>
         <v-card-text class="white text--primary text-h6">
-          <p><ul><li v-for='d in item.desc' :key='d'>{{d}}</li></ul></p>
+          <p class='pt-2'><ul><li v-for='d in item.desc' :key='d'>{{d}}</li></ul></p>
          
         </v-card-text>
       </v-card>

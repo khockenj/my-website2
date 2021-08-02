@@ -2,6 +2,7 @@
   <v-card
     class="mx-auto"
     min-width="18rem"
+
     color="lighterPrimary"
     shaped
     
@@ -31,7 +32,7 @@
       </div>
     </v-card-text>
      
-    <v-card-actions>
+    <!--<v-card-actions>
       <v-btn
         text
         color="primary"
@@ -65,7 +66,7 @@
           </v-btn>
         </v-card-actions>
       </v-card>
-    </v-expand-transition>
+    </v-expand-transition> -->
   </v-card>
 </template>
 
