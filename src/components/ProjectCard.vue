@@ -2,7 +2,7 @@
   <v-card
     class="mx-auto"
     min-width="18rem"
-
+    max-width="25rem"
     color="lighterPrimary"
     shaped
     

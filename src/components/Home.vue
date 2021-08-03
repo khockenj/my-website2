@@ -1,6 +1,6 @@
 <template>
 <v-responsive>
-  <v-container style='max-width:80%' class='my-0'>
+  <v-container  class='my-0'>
     <v-row>
         <v-col cols='4'></v-col>
         <v-col cols='4'><v-img style='border:2px solid #384D48;' src='@/assets/me.jpg' contain></v-img></v-col>
